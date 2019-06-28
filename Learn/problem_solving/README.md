@@ -10,6 +10,9 @@
   - [Chapter 9_02](#Chapter-902)
   - [Chapter 10](#Chapter-10)
   - [Chapter 10_03](#Chapter-1003)
+  - [Chapter 11](#Chapter-11)
+  - [Chapter 11_02](#Chapter-1102)
+  - [Chapter 11_03](#Chapter-1103)
 
 # Problem Solving
 
@@ -77,3 +80,22 @@ Chapter wise examples for various topics in **Problem Solving with C++ 10th Edit
 - Abstract Data Type
 - Derived classes (Introducing to Inheritance)
 
+## Chapter 11
+
+- Friend function
+- const parameter in function
+
+## Chapter 11_02
+
+- Operator Overloading
+  - Using friend keyword
+  - Without using friend keyword
+- Automatic type conversion
+- Overloading >> and  << using friend function
+
+## Chapter 11_03
+
+- Classes with Array
+- Classes with Dynamic Array example
+- Copy constructor example
+- Assignment operator overloading example (=)
