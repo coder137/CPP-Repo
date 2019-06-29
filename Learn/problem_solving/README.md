@@ -13,6 +13,7 @@
   - [Chapter 11](#Chapter-11)
   - [Chapter 11_02](#Chapter-1102)
   - [Chapter 11_03](#Chapter-1103)
+  - [Chapter 12](#Chapter-12)
 
 # Problem Solving
 
@@ -99,3 +100,12 @@ Chapter wise examples for various topics in **Problem Solving with C++ 10th Edit
 - Classes with Dynamic Array example
 - Copy constructor example
 - Assignment operator overloading example (=)
+
+## Chapter 12
+
+- Modularity (Seperate Compilation) using .h files
+- Namespaces
+  - Creating namespaces
+  - `using` declarative
+  - `using::function` declarative vs `using namespace`
+  - unnamed namespace vs global namespace
