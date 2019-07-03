@@ -14,6 +14,9 @@
   - [Chapter 11_02](#Chapter-1102)
   - [Chapter 11_03](#Chapter-1103)
   - [Chapter 12](#Chapter-12)
+  - [Chapter 13](#Chapter-13)
+  - [Chapter 13_01](#Chapter-1301)
+  - [Chapter 13_02](#Chapter-1302)
 
 # Problem Solving
 
@@ -109,3 +112,30 @@ Chapter wise examples for various topics in **Problem Solving with C++ 10th Edit
   - `using` declarative
   - `using::function` declarative vs `using namespace`
   - unnamed namespace vs global namespace
+
+## Chapter 13
+
+- Linked List
+  - inserting Head
+  - searching
+  - Pointer as iterator
+  - insertNode, removeNode
+  - printNode
+  - deepPrintNode
+
+## Chapter 13_01
+
+- Linked List with Classes
+- Added node.h and node.cpp
+
+## Chapter 13_02
+
+- Stack implementation using Class based Linked List
+  - Last in / First Out 
+  - First in / Last Out
+  - push
+  - pop
+- Queue implementation using Class based Linked List
+  - First in / First Out
+  - add
+  - remove
