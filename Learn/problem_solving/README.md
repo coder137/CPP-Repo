@@ -17,6 +17,9 @@
   - [Chapter 13](#Chapter-13)
   - [Chapter 13_01](#Chapter-1301)
   - [Chapter 13_02](#Chapter-1302)
+  - [Chapter 14](#Chapter-14)
+  - [Chapter 15](#Chapter-15)
+  - [Chapter 15_03](#Chapter-1503)
 
 # Problem Solving
 
@@ -139,3 +142,23 @@ Chapter wise examples for various topics in **Problem Solving with C++ 10th Edit
   - First in / First Out
   - add
   - remove
+
+## Chapter 14
+
+- Returning Value from recursive function
+> TODO, Add other examples
+
+## Chapter 15
+
+- Inheritance
+- Invoking super class method
+- Protected Qualifier
+- Operator and Copy constructor in derived classes
+
+## Chapter 15_03
+
+- Polymorphism
+- Virtual Functions
+- Slicing
+- Pointer to Class (Virtual Function)
+- Virutal Destructors

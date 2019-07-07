@@ -19,7 +19,8 @@ int main()
 
     // Protected Qualifier (Pg 884)
 
-    // Operators and Copy constructors in derived classes
+    // Operators and Copy constructors in derived classes (pg 894)
+
 
     return 0;
 }
