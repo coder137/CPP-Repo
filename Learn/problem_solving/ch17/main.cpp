@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "class_abs.h"
+
 using namespace std;
 
 template <class T>
@@ -37,7 +39,16 @@ int main()
     printNum(x, y);
     cout << "----------" << endl;
 
-    /// Templates for Data Abstraction
+    /// Templates for Class Abstraction (Without forward declaration)
+    /// i.e cannot be used in .cpp file
+    Vector2D<int> intVector(2, 3);
+    Vector2D<float> floatVector(1.5, 2.7);
+
+    cout << "IntVector: " << intVector.getInfo() << endl;
+    cout << "FloatVector: " << floatVector.getInfo() << endl;
+
+    /// Templates for Class Abstraction (With forward declaration) Pg 981
+    /// i.e can be used to declare a seperate .cpp file
 
     return 0;
 }
