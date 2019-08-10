@@ -1,25 +1,27 @@
-- [Problem Solving](#Problem-Solving)
-  - [Chapter 2](#Chapter-2)
-  - [Chapter 3](#Chapter-3)
-  - [Chapter 4](#Chapter-4)
-  - [Chapter 5](#Chapter-5)
-  - [Chapter 6](#Chapter-6)
-  - [Chapter 7](#Chapter-7)
-  - [Chapter 8](#Chapter-8)
-  - [Chapter 9](#Chapter-9)
-  - [Chapter 9_02](#Chapter-902)
-  - [Chapter 10](#Chapter-10)
-  - [Chapter 10_03](#Chapter-1003)
-  - [Chapter 11](#Chapter-11)
-  - [Chapter 11_02](#Chapter-1102)
-  - [Chapter 11_03](#Chapter-1103)
-  - [Chapter 12](#Chapter-12)
-  - [Chapter 13](#Chapter-13)
-  - [Chapter 13_01](#Chapter-1301)
-  - [Chapter 13_02](#Chapter-1302)
-  - [Chapter 14](#Chapter-14)
-  - [Chapter 15](#Chapter-15)
-  - [Chapter 15_03](#Chapter-1503)
+- [Problem Solving](#problem-solving)
+  - [Chapter 2](#chapter-2)
+  - [Chapter 3](#chapter-3)
+  - [Chapter 4](#chapter-4)
+  - [Chapter 5](#chapter-5)
+  - [Chapter 6](#chapter-6)
+  - [Chapter 7](#chapter-7)
+  - [Chapter 8](#chapter-8)
+  - [Chapter 9](#chapter-9)
+  - [Chapter 9_02](#chapter-902)
+  - [Chapter 10](#chapter-10)
+  - [Chapter 10_03](#chapter-1003)
+  - [Chapter 11](#chapter-11)
+  - [Chapter 11_02](#chapter-1102)
+  - [Chapter 11_03](#chapter-1103)
+  - [Chapter 12](#chapter-12)
+  - [Chapter 13](#chapter-13)
+  - [Chapter 13_01](#chapter-1301)
+  - [Chapter 13_02](#chapter-1302)
+  - [Chapter 14](#chapter-14)
+  - [Chapter 15](#chapter-15)
+  - [Chapter 15_03](#chapter-1503)
+  - [Chapter 16](#chapter-16)
+  - [Chapter 17](#chapter-17)
 
 # Problem Solving
 
@@ -162,3 +164,17 @@ Chapter wise examples for various topics in **Problem Solving with C++ 10th Edit
 - Slicing
 - Pointer to Class (Virtual Function)
 - Virutal Destructors
+
+## Chapter 16
+
+- try throw catch with function
+- try throw catch with class identifier for error
+- Generic catch statement
+- TODO, throw from function
+- TODO, rethrow from catch
+
+## Chapter 17
+
+- Templates for functions
+- Templates for Class (without forward declaration)
+- TODO, Templates for Class (with forward declaration)
