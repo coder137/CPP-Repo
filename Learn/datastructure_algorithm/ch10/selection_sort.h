@@ -70,7 +70,6 @@ void SelectionSort<T>::sort()
 {
   for (int i = 0; i < list.size(); i++)
   {
-    T min = list[i];
     T replaceIndex = findSmallest(i);
     swap(i, replaceIndex);
   }
