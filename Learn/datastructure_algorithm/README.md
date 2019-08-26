@@ -1,8 +1,14 @@
 - [Datastructures and Algorithm](#datastructures-and-algorithm)
+  - [ch5](#ch5)
   - [ch9](#ch9)
-  - [ch10 (Pg 540)](#ch10-pg-540)
+  - [ch10](#ch10)
 
 # Datastructures and Algorithm
+
+## ch5
+
+- Linked List 
+- TODO, Doubly Linked List
 
 ## ch9
 
@@ -10,12 +16,16 @@
 - Using binary search on arraylist
 - Using hashing on arraylist (Pg 542 onwards)
 
-## ch10 (Pg 540)
+## ch10
 
 - Selection Sort
 - TODO, Insertion Sort (V, LL)
 - Shell Sort
+  - Set a distance between two numbers i, i+gap
 - TODO, QuickSort (V)
+  - Using pivot
 - TODO, MergeSort (LL) 
+  - Divide and Merge
 - TODO, HeapSort (V)
-- 
+  - Make a Binary tree (Heap)
+  - Sort using the Binary Tree
