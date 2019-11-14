@@ -2,6 +2,7 @@
   - [ch5](#ch5)
   - [ch9](#ch9)
   - [ch10](#ch10)
+  - [heap](#heap)
 
 # Datastructures and Algorithm
 
@@ -29,3 +30,9 @@
 - TODO, HeapSort (V)
   - Make a Binary tree (Heap)
   - Sort using the Binary Tree
+
+## heap
+
+- Heapify
+- Max Heap
+- TODO, Min Heap
