@@ -64,16 +64,25 @@ CPP Learning and Exercise examples from **Problem Solving with C++ 10th Edition 
 - Heap
   - [x] Max Heap
   - [ ] Min Heap
+- Linked_List
+  - [ ] Singly Linked List
+  - [x] Doubly Linked List
+  - [ ] Reverse Linked List
 - Search
-  - [ ] Sequential Search
-  - [ ] Binary Search
+  - [x] Sequential Search
+  - [x] Binary Search
 - Sort
   - [x] Merge Sort
   - [ ] Heap Sort
-  - [ ] Quick Sort
+  - [x] Quick Sort
 - Tree
   - [x] Preorder Traversal
   - [x] Inorder Traversal
   - [x] Postorder Traversal
-  - [ ] Breadth First Search
-  - [ ] Depth First Search
+  - [ ] Maximum Depth
+    - Top Down
+    - Bottom Up 
+  - [x] Breadth First Search
+  - [x] Depth First Search
+  - [ ] Balanced Binary Tree
+  - [ ] Complete Binary Tree
