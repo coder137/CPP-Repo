@@ -9,6 +9,8 @@ using namespace std;
 bool breadth_first_search(TreeNodePtr &root, int searchValue);
 bool depth_first_search(TreeNodePtr &root, int searchValue);
 
+int height(TreeNodePtr &root);
+
 int main()
 {
   cout << "Hello World" << endl;
@@ -26,6 +28,10 @@ int main()
   user_tree__create_node(root->right->left, 23);
   user_tree__create_node(root->right->right, 21);
 
+  // NOTE, Additional parameters added so that we can test the height function
+  // user_tree__create_node(root->right->right->left, 56);
+  // user_tree__create_node(root->right->right->left->right, 20);
+
   // user_tree__inorder_traversal(root);
 
   cout << "Breadth First Search" << endl;
@@ -36,7 +42,19 @@ int main()
   isFound = depth_first_search(root, 90);
   cout << isFound << endl;
 
+  cout << "Height: " << height(root) << endl;
+
   return 0;
+}
+
+int height(TreeNodePtr &root)
+{
+  if (root == NULL)
+  {
+    return 0;
+  }
+
+  return 1 + max(height(root->left), height(root->right));
 }
 
 bool breadth_first_search(TreeNodePtr &root, int searchValue)
