@@ -5,8 +5,8 @@ AIM:
 - [x] Build with CMake
 - [x] Integrate with VSCode
   - Autocomplete
-- [ ] Adding new packages via CMake
-- [ ] Basic Conan Commands
+- [x] Adding new packages via CMake
+- [x] Basic Conan Commands
 
 
 # [Build with CMake](https://github.com/conan-io/cmake-conan)
@@ -24,8 +24,17 @@ cmake --build _build
 cmake --build _build --target run -- -v
 ```
 
-# Conan Commands
+# Basic Conan Commands
 
 ```bash
 conan search <package_name> -r=all
 ```
+
+> TODO, Add more if required
+
+# Adding Conan Package to CMAKE
+
+- Added `CMAKE_TARGETS` to `conan_cmake_run` macro
+- We can then add our conan-target to the project-target by using the `CONAN_PKG:<package_name>` tag
+  - Added `docopt` and `spdlog` to the project
+  - Added examples for both packages
