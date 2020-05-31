@@ -27,5 +27,5 @@
 
 - [ ] unordered_set
 - [ ] unordered_multiset
-- [ ] unordered_map
+- [x] unordered_map
 - [ ] unordered_multimap
