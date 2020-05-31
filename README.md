@@ -1,88 +1,68 @@
 
-- [Code Samples](#code-samples)
-- [C++11](#c11)
-- [C++14](#c14)
-- [C++17](#c17)
-- [Exercises](#exercises)
-- [Learn](#learn)
+- [CPP-Repo](#cpp-repo)
+- [Installation](#installation)
+  - [MYSYS for Windows](#mysys-for-windows)
+- [Folder Structure](#folder-structure)
+  - [Book](#book)
+  - [Guidelines](#guidelines)
+  - [PackageManger](#packagemanger)
+  - [Pattern](#pattern)
+  - [STL](#stl)
+  - [Third Party](#third-party)
+  - [Tools](#tools)
+  - [Version](#version)
 
-**CPP-Repo**
+# CPP-Repo
 
-CPP Learning and Exercise examples from **Problem Solving with C++ 10th Edition _(Walter Savitech)_** and **Data Structures using C++ 2nd Edition _(D.S Malik)_**
+CPP Examples and Tests for various different components
 
-# Code Samples
+# Installation
 
-- [x] Singleton
-- Sequence Container STL
-  - vector
-  - deque
-  - list
-  - array [c++11]
-  - forward_list [c++11]
-- Container Adapter STL
-  - [ ] stack 
-  - [x] queue
-  - priority_queue
-- Associative Container STL
-  - set
-  - multiset
-  - map
-  - multimap
-- Unordered Associative Container STL
-  - unordered_set [c++11]
-  - unordered_multiset [c++11]
-  - unordered_map [c++11]
-  - unordered_multimap [c++11]
+## MYSYS for Windows
 
-# C++11
+- [Pacman Upgrade](https://solarianprogrammer.com/2019/11/05/install-gcc-windows/)
 
-- Smart Pointer examples (`memory`)
-  - [x] custom_auto_ptr implementation
-  - Unique ptr
-  - Shared ptr
-  - Weak ptr
-- auto and lambda functions
-- decltype
+# Folder Structure
 
-# C++14
+## Book
 
-> TODO
+Learning through a Textbook and making chapter wise coding examples
 
-# C++17
+## Guidelines
 
-> TODO
+Guidelines and Best practices for systems including style, patterns etc for:
 
-# Exercises
+- Embedded Systems
+- Computer Systems
 
-> TODO
+## PackageManger
 
-# Learn
+Different kinds of Package Managers used to automate Third Party integration with C++
 
-- Learning examples from **Problem Solving with C++ 10th Edition**
-- Learning examples from **Data Structures using C++ 2nd Edition**
+## Pattern
 
-- Heap
-  - [x] Max Heap
-  - [ ] Min Heap
-- Linked_List
-  - [ ] Singly Linked List
-  - [x] Doubly Linked List
-  - [ ] Reverse Linked List
-- Search
-  - [x] Sequential Search
-  - [x] Binary Search
-- Sort
-  - [x] Merge Sort
-  - [ ] Heap Sort
-  - [x] Quick Sort
-- Tree
-  - [x] Preorder Traversal
-  - [x] Inorder Traversal
-  - [x] Postorder Traversal
-  - [ ] Maximum Depth
-    - Top Down
-    - Bottom Up 
-  - [x] Breadth First Search
-  - [x] Depth First Search
-  - [ ] Balanced Binary Tree
-  - [ ] Complete Binary Tree
+Different kinds of C++ Patterns used in the industry
+
+## STL
+
+Standard Template Libraries used in various C++ versions
+
+> Update regularly per new C++ release
+
+## Third Party
+
+Important Third Party Libraries built without using a Package Manager
+
+## Tools
+
+Different kinds of C++ tools to improve workflow
+
+## Version
+
+Learning specific C++ Versions and their features
+
+- C++11
+- C++14
+- C++17
+- C++20
+
