@@ -15,3 +15,4 @@ add_subdirectory(cpputest-4.0)
 
 add_executable(cpputest_example main.cpp)
 add_subdirectory(foo)
+add_subdirectory(foo_bar)
