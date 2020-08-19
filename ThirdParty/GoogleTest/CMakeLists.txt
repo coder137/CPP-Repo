@@ -8,3 +8,4 @@ enable_testing()
 add_executable(GTest main.cpp)
 
 add_subdirectory(bar)
+add_subdirectory(foo)
