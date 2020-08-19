@@ -1,18 +1,12 @@
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 
-#include "bar.h"
+#include "bar_mock.h"
 #include "foo.h"
 
 namespace example {
 
 using ::testing::Return;
-
-class MockBar : public VBar {
-public:
-  MOCK_METHOD(int, getInt, (int i), (override));
-  MOCK_METHOD(float, getFloat, (float f), (override));
-};
 
 TEST(FooTest, MockTest) {
   Foo f;
