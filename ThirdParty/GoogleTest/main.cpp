@@ -1,11 +1,6 @@
 #include <iostream>
 
-#include "example.h"
-
 int main() {
-  std::cout << "Hello World\n";
-
-  example_hello();
-
+  std::cout << "Google Test and Mock example";
   return 0;
 }
