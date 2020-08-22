@@ -2,6 +2,7 @@
 - [Integration with CMake](#integration-with-cmake)
 - [Testing from command line](#testing-from-command-line)
 - [Building googletests](#building-googletests)
+- [Project example explanation](#project-example-explanation)
 
 # Google Test
 
@@ -36,3 +37,13 @@ ctest -T test --output-on-failure
 - This can be added in 2 ways
   - Create an example library and link that to the test executable
   - Add the sources and include files manually to the test executable
+
+
+# Project example explanation
+
+- Bar is an interface (virtual class)
+  - Easy to mock when used by Foo
+- Foo uses Bar (is not a virtual class)
+  - Slightly tougher to mock when used by Random class
+  - We need templates here for similar functionality
+- Random uses Foo (is a templated class)
