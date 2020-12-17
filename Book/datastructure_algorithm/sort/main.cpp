@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "lomuto_quick_sort.h"
 #include "merge_sort.h"
 #include "naive_quick_sort.h"
 
@@ -27,10 +28,27 @@ void naive_quick_sort() {
   print_vector(array);
 }
 
+void lomuto_partition() {
+  std::cout << __FUNCTION__ << std::endl;
+  std::vector<int> array = {43, 12, 32, 75, 212, 63, 123, 74, 98};
+  int partition_index = lomuto::partition(array, 0, array.size() - 1);
+  std::cout << "partition_index: " << partition_index << std::endl;
+  print_vector(array);
+}
+
+void lomuto_quick_sort() {
+  std::cout << __FUNCTION__ << std::endl;
+  std::vector<int> array = {43, 12, 32, 75, 212, 63, 123, 74, 98};
+  lomuto::quick_sort(array, 0, array.size() - 1);
+  print_vector(array);
+}
+
 int main() {
   merge_example();
   naive_partition();
   naive_quick_sort();
+  lomuto_partition();
+  lomuto_quick_sort();
 
   return 0;
 }
